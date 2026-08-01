@@ -1,0 +1,46 @@
+# Visual Studio / IDE
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userprefs
+
+# .NET build output
+**/bin/
+**/obj/
+[Bb]uild/
+out/
+
+# Generated release output
+dist/
+artifacts/
+release-package/
+*.zip
+*.7z
+*.nupkg
+
+# Local machine configuration
+Config.Build.user.props
+.env
+.env.*
+*.local.*
+
+# Unity generated directories
+Library/
+Temp/
+Logs/
+UserSettings/
+MemoryCaptures/
+
+# Tests and debug
+TestResults/
+coverage/
+*.coverage
+*.pdb
+*.mdb
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store

@@ -1,0 +1,9 @@
+{
+  "name": "DanceBox",
+  "description": "Switch dance models, play music-first random dances, and add compatible Humanoid model bundles, AnimationClip bundles, or OGG/WAV/MP3 music. 支持模型切换、自定义舞蹈与音乐。",
+  "version_number": "2.0.8",
+  "dependencies": [
+    "BepInEx-BepInExPack_PEAK-5.4.2403"
+  ],
+  "website_url": ""
+}

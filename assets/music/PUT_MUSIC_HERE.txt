@@ -1,0 +1,11 @@
+DanceBox optional music folder
+
+Supported loose formats: .ogg, .wav, .mp3
+
+Use a filename matching the animation name for automatic pairing, for example:
+  Default Dance.ogg
+  Floss.ogg
+  Dab.wav
+  HeadSpin 1.mp3
+
+Only use music that you have permission to use and redistribute.

@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>com.nadiyajafi.peaklethaldances.complete</AssemblyName>
+    <AssemblyTitle>PEAK Lethal Dances Complete</AssemblyTitle>
+    <RootNamespace>NadiyaJafi.PEAKLethalDances</RootNamespace>
+    <Version>2.0.7</Version>
+    <Authors>nadiyajafi</Authors>
+    <Description>Self-contained PEAK dance mod integrating PEAKEmoteLib, Lethal Company animation bundles, looping emotes and spatial music.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../PEAKEmoteLib/**/*.cs" Link="IntegratedEmoteRuntime/%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="../../assets/original-bundles/lethal_fineilldoitmyself">
+      <Link>bundles/lethal_fineilldoitmyself</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="../../assets/original-bundles/lethal_moisture_animationreplacements">
+      <Link>bundles/lethal_moisture_animationreplacements</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="../../assets/original-bundles/lethal_customemotespackage">
+      <Link>bundles/lethal_customemotespackage</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="../../assets/original-bundles/lethal_customemotespackage2">
+      <Link>bundles/lethal_customemotespackage2</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="../../assets/original-bundles/huluoboanimex">
+      <Link>bundles/huluoboanimex</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="../../assets/original-bundles/huluobobgmex">
+      <Link>bundles/huluobobgmex</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="../../assets/original-bundles/huluobopopex">
+      <Link>bundles/huluobopopex</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="../../assets/model-bundles/**/*">
+      <Link>model-bundles/%(RecursiveDir)%(Filename)%(Extension)</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="../../assets/music/PUT_MUSIC_HERE.txt">
+      <Link>music/PUT_MUSIC_HERE.txt</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

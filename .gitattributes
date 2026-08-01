@@ -1,0 +1,23 @@
+# Automatically normalize text files
+* text=auto
+
+# Unix scripts must use LF
+*.sh text eol=lf
+
+# Windows scripts use CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary files must not be modified
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.dll binary
+*.exe binary
+*.zip binary
+*.7z binary
+*.bundle binary
+*.assetbundle binary
