@@ -543,12 +543,12 @@ public sealed partial class Plugin
     private static string InferModelCatalogName(string path)
     {
         string stem = Path.GetFileNameWithoutExtension(path);
-        int xiehen = stem.IndexOf("xiehen", StringComparison.OrdinalIgnoreCase);
-        if (xiehen >= 0)
+        int example = stem.IndexOf("example", StringComparison.OrdinalIgnoreCase);
+        if (example >= 0)
         {
-            int end = xiehen + 6;
+            int end = example + 6;
             while (end < stem.Length && char.IsDigit(stem[end])) end++;
-            if (end > xiehen + 6) return stem.Substring(xiehen, end - xiehen).ToLowerInvariant();
+            if (end > example + 6) return stem.Substring(example, end - example).ToLowerInvariant();
         }
         return stem.Replace("_embedded_", " #").Replace('_', ' ').Trim();
     }

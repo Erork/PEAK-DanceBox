@@ -246,7 +246,7 @@ public sealed partial class Plugin : BaseUnityPlugin
         dumpAssetInventory = Config.Bind("Debug", "DumpAssetInventory", false, "Write a TSV inventory of every loaded animation/audio/icon/Avatar/model asset beside the plugin DLL.");
 
         replaceModelWhileDancing = Config.Bind("Model", "ReplaceModelWhileDancing", true, "Show a complete Lethal Company model-pack character while custom Humanoid dances play. Disable to animate PEAK's original model instead.");
-        preferredModel = Config.Bind("Model", "PreferredModel", "xiehen70", "Preferred model prefab/avatar/source name. Partial catalog names such as xiehen70 or xiehen90 are accepted and can also be selected from the GUI.");
+        preferredModel = Config.Bind("Model", "PreferredModel", "example70", "Preferred model prefab/avatar/source name. Partial catalog names such as example70 or example90 are accepted and can also be selected from the GUI.");
         enableModelCycling = Config.Bind("Model", "EnableModelCycling", true, "Allow PageUp/PageDown to select the previous or next catalog model. Selection remains lazy and does not load a bundle until a dance uses it.");
         autoScaleVisibleModel = Config.Bind("Model", "AutoScale", true, "Automatically match the replacement model's rendered height to PEAK's third-person body, with a conservative full-body-bone fallback.");
         visibleModelScale = Config.Bind("Model", "ScaleMultiplier", 1f, new ConfigDescription("Additional replacement-model scale multiplier after visual-height auto scaling. Use values below 1 only for personal fine tuning.", new AcceptableValueRange<float>(0.1f, 5f)));
@@ -693,7 +693,7 @@ public sealed partial class Plugin : BaseUnityPlugin
                normalized.Contains("/customize") || normalized.Contains("modelreplacement") ||
                normalized.Contains("model-replacement") || normalized.Contains("/suits/") ||
                normalized.Contains("/avatars/") || normalized.Contains("/characters/") ||
-               fileName.StartsWith("xiehen_model_", StringComparison.OrdinalIgnoreCase);
+               fileName.StartsWith("example_model_", StringComparison.OrdinalIgnoreCase);
     }
 
     private bool ShouldLoadModelPack(string path)

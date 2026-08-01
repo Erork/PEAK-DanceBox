@@ -334,13 +334,13 @@ internal sealed class SourceRigAsset
         int searchFrom = 0;
         while (searchFrom < sourceName.Length)
         {
-            int index = sourceName.IndexOf("xiehen", searchFrom, StringComparison.OrdinalIgnoreCase);
+            int index = sourceName.IndexOf("example", searchFrom, StringComparison.OrdinalIgnoreCase);
             if (index < 0)
             {
                 break;
             }
 
-            int digitStart = index + "xiehen".Length;
+            int digitStart = index + "example".Length;
             int digitEnd = digitStart;
             while (digitEnd < sourceName.Length && char.IsDigit(sourceName[digitEnd]))
             {

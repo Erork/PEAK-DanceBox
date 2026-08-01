@@ -24,7 +24,7 @@ internal static class RuntimeOptions
 
     public static bool FollowGameMusicVolume { get; set; } = true;
     public static bool ReplaceModelWhileDancing { get; set; } = true;
-    public static string PreferredModel { get; set; } = "xiehen70";
+    public static string PreferredModel { get; set; } = "example70";
     public static bool EnableModelCycling { get; set; } = true;
     public static bool AutoScaleVisibleModel { get; set; } = true;
     public static float VisibleModelScale { get; set; } = 1f;

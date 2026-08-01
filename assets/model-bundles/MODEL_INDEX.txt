@@ -2,19 +2,19 @@ DanceBox bundled Humanoid model pack index.
 Use PageUp/PageDown in game or the Models tab to select a model.
 Additional visible models must be Unity AssetBundles containing a GameObject prefab, Animator, valid Humanoid Avatar and Renderer.
 
-xiehen_model_01_xiehen70.bundle	xiehen70	#U90aa#U75d5_#U8d5b#U9a6c#U5a18-#U5f85#U517c#U8bd7#U6b4c#U5267.dll	3205713
-xiehen_model_02_xiehen75.bundle	xiehen75	#U90aa#U75d5_#U8d5b#U9a6c#U5a18-#U6625#U4e4c#U62c9#U62c9.dll	2444388
-xiehen_model_03.bundle	(prefab name discovered at runtime)	#U90aa#U75d5_#U8d5b#U9a6c#U5a18-#U674f#U76ee.dll	2284997
-xiehen_model_04_xiehen140.bundle	xiehen140	#U90aa#U75d5_#U8d5b#U9a6c#U5a18-#U6bd4#U8428#U80dc#U9a79.dll	2066920
-xiehen_model_05_xiehen74.bundle	xiehen74	#U90aa#U75d5_#U8d5b#U9a6c#U5a18-#U7231#U5982#U5f80#U6614.dll	1867803
-xiehen_model_06_xiehen33.bundle	xiehen33	#U90aa#U75d5_#U8d5b#U9a6c#U5a18-#U7c73#U6d74.dll	3122598
-xiehen_model_07_xiehen41.bundle	xiehen41	#U90aa#U75d5_#U8d5b#U9a6c#U5a18-#U7f8e#U6d66#U6ce2#U65c1.dll	3151985
-xiehen_model_08.bundle	(prefab name discovered at runtime)	#U90aa#U75d5_#U8d5b#U9a6c#U5a18-#U8c0b#U52c7#U517c#U5907.dll	1985621
-xiehen_model_09_xiehen55.bundle	xiehen55	#U90aa#U75d5_#U8d5b#U9a6c#U5a18-#U91cc#U89c1#U5149#U94bb.dll	3397020
-xiehen_model_10_xiehen101.bundle	xiehen101	#U90aa#U75d5_#U8d64#U4ed3x#U4e09#U4e3d#U9e25#U00b7Mllfy.dll	5417751
-xiehen_model_11_xiehen90.bundle	xiehen90	#U90aa#U75d5_#U8f7b#U76c8#U6ce1#U6ce1#U00b7Miku.dll	7606291
-xiehen_model_12_xiehen166.bundle	xiehen166	#U90aa#U75d5_#U8fd0#U52a8#U88c5-Riru.dll	9618522
-xiehen_model_13_xiehen200.bundle	xiehen200	#U90aa#U75d5_#U963f#U8299.dll	11781090
-xiehen_model_14_xiehen21.bundle	xiehen21	#U90aa#U75d5_#U96ea#U82b1#U83c8#U7c73.dll	4094483
-xiehen_model_15_xiehen106.bundle	xiehen106	#U90aa#U75d5_#U96fe#U55b5#U5591#U7eb1#U00b7Eku.dll	15822096
-xiehen_model_16.bundle	(prefab name discovered at runtime)	#U90aa#U75d5_#U9ece#U6b4c.dll	6294763
+example_model_01_example70.bundle	example70	#U90aa#U75d5_#U8d5b#U9a6c#U5a18-#U5f85#U517c#U8bd7#U6b4c#U5267.dll	3205713
+example_model_02_example75.bundle	example75	#U90aa#U75d5_#U8d5b#U9a6c#U5a18-#U6625#U4e4c#U62c9#U62c9.dll	2444388
+example_model_03.bundle	(prefab name discovered at runtime)	#U90aa#U75d5_#U8d5b#U9a6c#U5a18-#U674f#U76ee.dll	2284997
+example_model_04_example140.bundle	example140	#U90aa#U75d5_#U8d5b#U9a6c#U5a18-#U6bd4#U8428#U80dc#U9a79.dll	2066920
+example_model_05_example74.bundle	example74	#U90aa#U75d5_#U8d5b#U9a6c#U5a18-#U7231#U5982#U5f80#U6614.dll	1867803
+example_model_06_example33.bundle	example33	#U90aa#U75d5_#U8d5b#U9a6c#U5a18-#U7c73#U6d74.dll	3122598
+example_model_07_example41.bundle	example41	#U90aa#U75d5_#U8d5b#U9a6c#U5a18-#U7f8e#U6d66#U6ce2#U65c1.dll	3151985
+example_model_08.bundle	(prefab name discovered at runtime)	#U90aa#U75d5_#U8d5b#U9a6c#U5a18-#U8c0b#U52c7#U517c#U5907.dll	1985621
+example_model_09_example55.bundle	example55	#U90aa#U75d5_#U8d5b#U9a6c#U5a18-#U91cc#U89c1#U5149#U94bb.dll	3397020
+example_model_10_example101.bundle	example101	#U90aa#U75d5_#U8d64#U4ed3x#U4e09#U4e3d#U9e25#U00b7Mllfy.dll	5417751
+example_model_11_example90.bundle	example90	#U90aa#U75d5_#U8f7b#U76c8#U6ce1#U6ce1#U00b7Miku.dll	7606291
+example_model_12_example166.bundle	example166	#U90aa#U75d5_#U8fd0#U52a8#U88c5-Riru.dll	9618522
+example_model_13_example200.bundle	example200	#U90aa#U75d5_#U963f#U8299.dll	11781090
+example_model_14_example21.bundle	example21	#U90aa#U75d5_#U96ea#U82b1#U83c8#U7c73.dll	4094483
+example_model_15_example106.bundle	example106	#U90aa#U75d5_#U96fe#U55b5#U5591#U7eb1#U00b7Eku.dll	15822096
+example_model_16.bundle	(prefab name discovered at runtime)	#U90aa#U75d5_#U9ece#U6b4c.dll	6294763

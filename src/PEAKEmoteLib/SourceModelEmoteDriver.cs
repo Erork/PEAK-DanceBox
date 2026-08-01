@@ -227,7 +227,7 @@ internal sealed class SourceModelEmoteDriver : MonoBehaviour
             proxyRoot.transform.localRotation = Quaternion.identity;
             importedRootScale = proxyRoot.transform.localScale;
             // ModelReplacement prefabs may serialize an authoring/import scale on
-            // the prefab root (xiehen70 is 82.882). That scale is not a character
+            // the prefab root (example70 is 82.882). That scale is not a character
             // size and must never participate in visible-model height matching.
             // Hidden pose solvers keep their authored scale because their local
             // skeleton coordinates are already normalized during retargeting.
@@ -518,7 +518,7 @@ internal sealed class SourceModelEmoteDriver : MonoBehaviour
 
         proxyRoot.transform.localRotation = Quaternion.Euler(0f, RuntimeOptions.VisibleModelYaw, 0f);
         // Always discard the prefab authoring/import scale before measuring.
-        // xiehen70 serializes 82.882 on the root; multiplying that value was the
+        // example70 serializes 82.882 on the root; multiplying that value was the
         // direct cause of the 70-140 metre renderer bounds in 1.3.3.
         proxyRoot.transform.localScale = Vector3.one;
         proxyAnimator.Update(0f);
@@ -1457,7 +1457,7 @@ internal sealed class SourceModelEmoteDriver : MonoBehaviour
         bool universal = pipelineName.IndexOf("Universal", StringComparison.OrdinalIgnoreCase) >= 0;
         if (universal)
         {
-            // xiehen70 contains lilToon/HDRP shaders. Unity can report those
+            // example70 contains lilToon/HDRP shaders. Unity can report those
             // shader assets as supported even though the active URP renderer has
             // no matching SubShader pass, which produces an enabled but invisible renderer.
             if (pipelineTag.IndexOf("HD", StringComparison.OrdinalIgnoreCase) >= 0 ||
